@@ -1,0 +1,79 @@
+/*
+Colby Mei
+Dec 2023
+GUI1
+*/
+
+body {
+    background-color: #D8BFD8;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 56px;
+}
+
+#board {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.boardSlot {
+    border-style: solid;
+    float: left;
+}
+
+#letterRack {
+    margin: 40px auto;
+    text-align: center;
+    width: 640px;
+    height: 144px;
+    background-image: url("../images/TileHolder.png");
+}
+
+.letterTile {
+    border-radius: 4px;
+    width: 75px;
+    height: 85px;
+}
+
+#stats {
+    width: 600px;
+    margin: 30px auto 10px;
+    padding-top: 20px;
+    border-bottom: 5px solid #5D3FD3;
+    font-size: 16px;
+}
+
+#stats div {
+    display: inline-block;
+}
+
+#word, #score, #remainingTiles, #highScore {
+    width: 72px;
+    font-weight: bold;
+}
+
+.button1, .button2 {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.onRack {
+    margin: 27px 4px 0px 4px;
+}
+
+.onBoard {
+    top: 10px;
+}
+
+button {
+	border-radius:20px;
+	cursor:pointer;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 24px;
+    display: inline-block;
+}

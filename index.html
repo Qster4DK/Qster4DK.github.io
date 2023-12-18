@@ -1,0 +1,54 @@
+<!--
+Colby Mei
+Dec 2023
+GUI1
+-->
+
+<html>
+<head>
+  <title>Scrabble</title>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"/>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <h1>SCRABBLE WITH YOURSELF</h1>
+
+    <div id="board"></div>
+
+    <div id="letterRack"></div>
+
+    <div class="button1">
+      <button id="submitButton" onclick="submit()">Submit</button>
+    </div>
+
+    <div id="stats">
+      <div>
+        <div class="label">Word:</div>
+        <div id="word"></div>
+      </div>
+      <div>
+        <div class="label">Score:</div>
+        <div id="score">0</div>
+      </div>
+      <div>
+        <div class="label">High Score:</div>
+        <div id="highScore">&minus;</div>
+      </div>
+      <div>
+        <div class="label">Remaining Tiles:</div>
+        <div id="remainingTiles"></div>
+      </div>
+    </div>
+
+    <div class="button2">
+      <button id="restartButton" onclick="restart()">Give Up</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/myScript.js"></script>
+</body>
+
+
+</html>
